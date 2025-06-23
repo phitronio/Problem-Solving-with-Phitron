@@ -7,20 +7,14 @@ using ll = long long ;
 
 
 void solve(){
-    int n ; cin >>n ;
+    int n , a , b ; cin >> n >> a >> b ;
 
+    int dis = abs(a-b) -1 ;
 
-    cout << 1 << " " ;
-
-
-    for(int i =n ;i>=3 ;i--){
-        cout << i << " " ;
+    if(dis%2!=0){ // alice jitse odd hoi
+        cout << "YES" << endl ;
     }
-
-    cout << 2 << endl ;
-
-
-
+    else cout << "NO" << endl ;
 
 
 }
